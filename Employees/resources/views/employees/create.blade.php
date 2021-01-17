@@ -29,5 +29,7 @@
         </div>
         
         {{Form::submit('Submit', ['class'=>'btn btn-primary'])}}
+        <a href="/" class="btn btn-secondary">Cancel</a>
+
     {!! Form::close() !!}
 @endsection
